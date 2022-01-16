@@ -1,0 +1,8 @@
+.navbar a:hover {
+  color: black !important;
+}
+.sec-heading {
+  font-size: 32px;
+  font-family: Helvetica;
+  color: white;
+}

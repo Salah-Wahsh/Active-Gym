@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+}
+
+.navbar {
+    background-color: #B12A2A !important;
+}
+
+.navbar a:hover {
+    color: black !important;
+}
+.cont-inpt{
+  width: 600px; height: 50px;
+}
+.center {
+  margin: auto;
+  width: 70%;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.sec-heading {
+    font-size: 42px;
+    font-family: Verdana;
+    color: white;
+}
+.parallax {
+    background-image: url("../images/login.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+.cont-inpt{
+      width: 70%;
+      height: 7%px;
+    }
+
+  }

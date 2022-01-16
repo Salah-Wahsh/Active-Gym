@@ -1,0 +1,148 @@
+<Html>
+
+    <head>
+        <title>
+            Registration Page
+        </title>
+        <link rel="icon" href="../images/weightlifter.png">
+        <!-- BS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!-- BS END -->
+        <link rel="stylesheet" type="text/css" href="../CSS/registerStyle.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="../HTML/index.php"
+                    style="font-family: Arial Black, Gadget, sans-serif; font-size: 22px; color: white;">Active Gym</a>
+                <ul class="mr-auto"></ul>
+                <ul class="navbar-nav list">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.php">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.php#services">Services <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.php#plans">Plans <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.php#classes">Class Booking <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.php#contact">Contact Us <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Register <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/loginPage.php"><i class="fas fa-user"></i> Login <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <form action="../PHP/userRegister_B.php" method="post">
+            <section class="h-100 bg-dark">
+                <div class="container py-5 h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col">
+                            <div class="card card-registration my-4">
+                                <div class="row g-0">
+                                    <div class="col-xl-6 d-none d-xl-block">
+                                        <img src="../images/regForm.jpeg" alt="Sample photo" class="img-fluid"
+                                            style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="card-body p-md-5 text-black">
+                                            <h3 class="mb-5 text-uppercase">Registration Form</h3>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="form-outline">
+                                                        <input type="text" name="fname"
+                                                            class="form-control form-control-lg" />
+                                                        <label class="form-label">First name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="form-outline">
+                                                        <input type="text" name="lname"
+                                                            class="form-control form-control-lg" />
+                                                        <label class="form-label">Last name</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-outline mb-4">
+                                                <input type="text" name="address"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label">Address</label>
+                                            </div>
+                                            <div class="form-outline mb-4">
+                                                <input type="password" name="password"
+                                                    class="form-control form-control-lg" />
+                                                <label class="form-label">Password</label>
+                                            </div>
+                                            <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+                                                <h6 class="mb-0 me-4">Gender: &nbsp;</h6>
+                                                <div class="form-check form-check-inline mb-0 me-4">
+                                                    <input class="form-check-input" type="radio" name="gender"
+                                                        checked="checked" value="male" />
+                                                    <label class="form-check-label" for="femaleGender">Male</label>
+                                                </div>
+                                                <div class="form-check form-check-inline mb-0 me-4">
+                                                    <input class="form-check-input" type="radio" name="gender"
+                                                        value="female" />
+                                                    <label class="form-check-label" for="maleGender">Female</label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="number" name="age" class="form-control form-control-lg"
+                                                min="6" />
+                                            <label class="form-label" for="form3Example9">Age</label>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <input type="text" name="email" class="form-control form-control-lg" />
+                                            <label class="form-label" for="form3Example97">Email</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <button type="submit" class="btn btn-warning btn-lg ms-2"
+                                                style="background-color: #B12A2A; color:white;">Submit form</button>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </form>
+    </body>
+
+</html>
