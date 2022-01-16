@@ -40,7 +40,7 @@ session_start();
             <ul class="mr-auto"></ul>
             <ul class="navbar-nav list">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php"><i class="fas fa-user"></i> Logout <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php"><i class="fas fa-user"></i> Logout <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>

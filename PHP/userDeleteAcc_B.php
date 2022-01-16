@@ -17,10 +17,10 @@ $sql = "DELETE FROM register WHERE id=$user_id";
 if (!mysqli_query($con, $sql)) {
     echo "<script>
         alert('Error, something wrong happened.');
-        window.location.href='../HTML/index.php';
+        window.location.href='../index.php';
         </script>";
 } else
     echo "<script>
         alert('Account deleted successfully.');
-        window.location.href='../HTML/index.php';
+        window.location.href='../index.php';
         </script>";

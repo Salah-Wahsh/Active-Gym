@@ -46,7 +46,7 @@ include("../PHP/Config.php");
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-            <a class="navbar-brand" href="../HTML/index.php" style="font-family: Arial Black, Gadpost, sans-serif; font-size: 22px; color: white;">Active Gym</a>
+            <a class="navbar-brand" href="../index.php" style="font-family: Arial Black, Gadpost, sans-serif; font-size: 22px; color: white;">Active Gym</a>
 
             <ul class="mr-auto"></ul>
 
@@ -61,7 +61,7 @@ include("../PHP/Config.php");
                         <a class="dropdown-item" href="../PHP/userViewClass.php">My Classes</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php"><i class="fas fa-user"></i> Logout <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php"><i class="fas fa-user"></i> Logout <span class="sr-only">(current)</span></a>
                 </li>
 
             </ul>

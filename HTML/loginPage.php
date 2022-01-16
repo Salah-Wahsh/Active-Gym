@@ -22,23 +22,23 @@ session_start();
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="../HTML/index.php" style="font-family: Arial Black, Gadget, sans-serif; font-size: 22px; color: white;">Active Gym</a>
+            <a class="navbar-brand" href="../index.php" style="font-family: Arial Black, Gadget, sans-serif; font-size: 22px; color: white;">Active Gym</a>
             <ul class="mr-auto"></ul>
             <ul class="navbar-nav list">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php#services">Services <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php#services">Services <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php#plans">Plans <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php#plans">Plans <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php#classes">Class Booking <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php#classes">Class Booking <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../HTML/index.php#contact">Contact Us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.php#contact">Contact Us <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="../HTML/userRegister.html">Register <span class="sr-only">(current)</span></a>
