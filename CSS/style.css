@@ -70,6 +70,7 @@ body {
 
 .sc1 .stronger {
     font-size: 60px;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 
@@ -78,6 +79,7 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .centered {
