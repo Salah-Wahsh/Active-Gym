@@ -543,7 +543,7 @@ include("../PHP/Config.php");
                     </div>
                 </div>
                 <?php
-                include("../PHP/Config.php");
+                include("Config.php");
 
                 $sql = "SELECT * FROM comments";
 
