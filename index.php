@@ -1,6 +1,8 @@
 <?php
 session_unset(); //removes value
 include("../PHP/Config.php");
+include("Config.php");
+
 ?>
 
 <!DOCTYPE html>
